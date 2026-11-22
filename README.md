@@ -2,6 +2,12 @@
 
 A Verilog design that receives characters from a PC over UART and writes them into an on-chip memory as AXI4 burst writes, crossing from a 100 MHz clock domain to a 62.5 MHz clock domain through an asynchronous FIFO. It runs on a **Digilent Nexys 4 DDR** (Artix-7 `xc7a100tcsg324-1`) and was built with **Vivado 2024.2**.
 
+Final-year B.E. project, Department of Electrical and Electronics Engineering, BMS Institute of Technology and Management, Bengaluru.
+
+**Team:** Nitya Pathak, Kartik Mishra, Navya Parashar  
+**Guide:** Mr. Nagaraj D.C
+
+![Board after typing ABCDEFGHIJKLMNOP: display shows 44434241](docs/images/board_test1.jpg)
 
 ## How it works
 

@@ -1,0 +1,23 @@
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.srcs/
+*.xpr
+*.dcp
+webtalk*
+# Keep the final bitstream out of the source tree; attach it to a GitHub Release instead
+*.bit
+*.bin
+# OS / editor
+.DS_Store
+Thumbs.db
